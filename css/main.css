@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Silkscreen:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron';
+    /* font-family: 'Silkscreen'; */
+    
+}
+
+.wrapper {
+    background-image: linear-gradient(117deg, rgba(131,58,180,1) 4%, rgba(176,47,125,1) 29%, rgba(253,29,29,1) 63%, rgba(252,176,69,1) 100%);
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.heading-text {
+    font-family: 'Orbitron';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100px;
+    margin-bottom: 80px;
+}
+
+
+.link-img {
+    border: 5px solid rgb(181, 160, 160);
+    border-radius: 20px;
+    border-right: 6px solid rgb(181, 160, 160); 
+    transition: all 0.5s ease;
+    margin-bottom: 50px;
+}
+
+.link-img:hover {
+    box-shadow: 0px 0px 10px 8px  rgb(255, 251, 251);
+    border-color: white;
+}
+
+.btn-wrapper {
+    display: flex;
+}
+
+.btn-telegram {
+    display: inline-block;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 8px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: 'Silkscreen' ;
+    background-color:rgba(255, 255, 255, 0);
+    border: 5px solid #ffffff;
+    color:#ffffff ;
+    transition: all 0.1s ease;
+}
+
+.btn-telegram:hover {
+    background-image: linear-gradient(61deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 36%, rgba(61,188,214,1) 76%);
+    /* padding: 25px 13px; */
+    border:none;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 554px) {
+   
+    
+    .heading-text {
+        width: 100%;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
+    
+    
+    .link-img {
+        width: 100%;
+        max-width:300px;
+        margin-bottom:35px;
+    }
+    
+    .btn-telegram {
+        display: inline-block;
+        width: 100%;
+        max-width: 250px;
+        padding: 15px 5px;
+        font-size: 20px;
+        border: 4px solid #ffffff;
+    }
+  
+}
